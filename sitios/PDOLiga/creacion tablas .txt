@@ -1,0 +1,9 @@
+CREATE TABLE `equipos`(
+    `id` int(3) NOT NULL AUTO_INCREMENT,
+    `nombre` varchar(50) NOT NULL,
+    `puntos` int(3) NOT NULL DEFAULT 0,
+    `goles_favor` int(3) NOT NULL DEFAULT 0,
+    `goles_contra` int(3) NOT NULL DEFAULT 0,
+    PRIMARY KEY (`id`), 
+	UNIQUE KEY `id` (`id`)
+) ENGINE=INNODB AUTO_INCREMENT=1 DEFAULT charset=utf8;

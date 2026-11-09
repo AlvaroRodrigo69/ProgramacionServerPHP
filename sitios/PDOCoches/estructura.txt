@@ -1,0 +1,1 @@
+del enrutador al conrolador y del controlador al modelo y del modelo a la vista y a la base de datos
